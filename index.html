@@ -1,0 +1,61 @@
+<html lang = "en">
+  <head>
+
+    <meta charset='UTF-8'/>
+
+    <title> Image Classification in the works</title>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <link href='styles.css' rel='stylesheet'>
+  </head>
+
+  <body>
+
+     <div class='header'>
+
+      <title>Image Classification in the works with Tensor Flow!</title>
+      <div class='title'><h1> Image Classification with Tensorflow</h1></div>
+
+    </div>
+
+    <div class = 'webcam'>
+      <div class='cam capture'>
+
+        <div class='item'>
+
+          <h1> Capture Gestures</h1>
+          <video autoplay playsinline muted id="webcam" width="400" height="400"></video>
+          <script src="index.js"></script>
+        </div>
+
+    <div class = 'item'>
+      <h2> Classifying</h2>
+      <a class='button' id="class-a">Add A</a>
+
+      <a class='button' id="class-b">Add  B</a>
+
+      <a class='button' id="class-c">Add  C</a>
+
+      <a class='button' id="class-d"> Unkown</a>
+    </div>
+
+    <div class='item'>
+
+          <h3> Prediction result</h3>
+
+          <div class='print' id="console">
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Load index.js after the content of the page -->
+    
+  </body>
+</html>
