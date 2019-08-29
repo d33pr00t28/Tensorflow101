@@ -1,3 +1,3 @@
 # Tensorflow101
 Getting started with Tensor flow 
-Creting a training model to detect gestures. 
+Creating a training model to detect & classify gestures. 
